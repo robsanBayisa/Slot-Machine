@@ -19,7 +19,7 @@ const deposit = () => {
     }
   }
 };
-
+//2. Determine number of lines to bet on
 const getNumberOfLines = () => {
   while (true) {
     const lines = prompt("Enter the number of lines to bet on (1-3): ");
