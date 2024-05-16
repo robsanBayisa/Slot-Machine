@@ -5,8 +5,15 @@
 //5. Check if the user their winnings
 //6. Give the user their winnings
 //7. play again
-const prompt = require("prompt-sync")();
+
+
+
+
+
+
 //1. Despot some money
+const prompt = require("prompt-sync")();
+
 const deposit = () => {
   while (true) {
     const depositAmount = prompt("Enter a deposit amount: ");
