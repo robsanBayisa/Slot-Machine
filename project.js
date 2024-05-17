@@ -1,8 +1,8 @@
 
 
 
-// 5. check if the user won
-// 6. give the user their winnings
+
+
 // 7. play again
 
 const prompt = require("prompt-sync")();
@@ -112,7 +112,7 @@ const printRows = (rows) => {
     console.log(rowString);
   }
 };
-
+// 5. check if the user won
 const getWinnings = (rows, bet, lines) => {
   let winnings = 0;
 
@@ -134,7 +134,7 @@ const getWinnings = (rows, bet, lines) => {
 
   return winnings;
 };
-
+// 6. give the user their winnings
 const game = () => {
   let balance = deposit();
 
