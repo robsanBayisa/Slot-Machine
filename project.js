@@ -1,10 +1,3 @@
-
-
-
-
-
-// 7. play again
-
 const prompt = require("prompt-sync")();
 
 const ROWS = 3;
@@ -154,7 +147,7 @@ const game = () => {
       console.log("You ran out of money!");
       break;
     }
-
+// 7. play again
     const playAgain = prompt("Do you want to play again (y/n)? ");
 
     if (playAgain != "y") break;
