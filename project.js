@@ -39,7 +39,7 @@ const getNumberOfLines = () => {
     }
   }
 };
-
+//3. Collect a bet amount
 const depositAmount = deposit();
 const numberOfLines = getNumberOfLines();
 
