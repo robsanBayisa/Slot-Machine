@@ -1,7 +1,6 @@
 
 
-// 3. Collect a bet amount
-// 4. Spin the slot machine
+
 // 5. check if the user won
 // 6. give the user their winnings
 // 7. play again
@@ -50,7 +49,7 @@ const getNumberOfLines = () => {
     }
   }
 };
-
+// 3. Collect a bet amount
 const getBet = (balance, lines) => {
   while (true) {
     const bet = prompt("Enter the bet per line: ");
@@ -64,6 +63,7 @@ const getBet = (balance, lines) => {
   }
 };
 
+// 4. Spin the slot machine
 const spin = () => {
   const symbols = [];
   for (const [symbol, count] of Object.entries(SYMBOLS_COUNT)) {
