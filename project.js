@@ -7,7 +7,6 @@ const SYMBOLS_COUNT = {
   C: 6,
   D: 8,
 };
-
 const SYMBOL_VALUES = {
   A: 5,
   B: 4,
